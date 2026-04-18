@@ -14,15 +14,15 @@
 }
 
 .box {
-  background-color: yellow;
-}
-
-.right {
   background-color: purple;
 }
 
+.right {
+  background-color: none;
+}
+
 .button {
-  background-color: #05c7cf; /* Background color */
+  background-color: #2DBDB7; /* Background color */
   color: white; /* Text color */
   padding: 12px 24px; /* Top and bottom padding, left and right padding */
   font-size: 20px; /* Font size */
@@ -37,9 +37,9 @@
 }
 
 .left {
-  background-color: pink;
+  background-color: none;
 }
 
 .laptop {
-  background-color: green;
+  background-color: none;
 }
