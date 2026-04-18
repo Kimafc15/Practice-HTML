@@ -14,7 +14,7 @@
 }
 
 .box {
-  background-color: purple;
+  background-color: rgb(246, 211, 246);
 }
 
 .right {
@@ -22,7 +22,7 @@
 }
 
 .button {
-  background-color: #2DBDB7; /* Background color */
+  background-color: #52f2ea; /* Background color */
   color: white; /* Text color */
   padding: 12px 24px; /* Top and bottom padding, left and right padding */
   font-size: 20px; /* Font size */
