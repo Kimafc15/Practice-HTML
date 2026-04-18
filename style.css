@@ -1,4 +1,41 @@
-.logo:hover {
-    color: #ff0000; /* Change to your desired hover color */
-    transition: color 0.3s ease; /* Smooth transition for color change */
+.heading {
+    color: rgb(0, 0, 0);
+    background-color: rgb(202, 251, 245);
+    width: 100px auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: ;
+}
+
+
+.box {
+   background-color: yellow;
+}
+
+
+.right {
+    background-color: purple;
+}
+
+
+
+.button {
+    background-color: rgb(58, 19, 114);
+    border-radius: 12px;
+}
+
+
+.left {
+    background-color: pink;
+}
+
+.laptop {
+    background-color: green;
 }
