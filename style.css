@@ -1,41 +1,45 @@
 .heading {
-    color: rgb(0, 0, 0);
-    background-color: rgb(202, 251, 245);
-    width: 100px auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  color: rgb(0, 0, 0);
+  background-color: rgb(202, 251, 245);
+  width: 100px auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
 
 .nav {
-    display: flex;
-    flex-direction: ;
+  display: flex;
+  flex-direction: row;
 }
-
 
 .box {
-   background-color: yellow;
+  background-color: yellow;
 }
-
 
 .right {
-    background-color: purple;
+  background-color: purple;
 }
-
-
 
 .button {
-    background-color: rgb(58, 19, 114);
-    border-radius: 12px;
+  background-color: #05c7cf; /* Background color */
+  color: white; /* Text color */
+  padding: 12px 24px; /* Top and bottom padding, left and right padding */
+  font-size: 20px; /* Font size */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
+.button:hover {
+  background-color: #029aab; /* Darker shade on hover */
+}
 
 .left {
-    background-color: pink;
+  background-color: pink;
 }
 
 .laptop {
-    background-color: green;
+  background-color: green;
 }
