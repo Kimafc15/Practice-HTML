@@ -1,6 +1,5 @@
 .background-box {
     box-sizing: border-box; /* This makes width and height include padding and border */
-    padding: 10px; /* Example padding */
 }
 
     
@@ -8,8 +7,6 @@
 .heading {
   color: rgb(0, 0, 0);
   background-color: rgb(202, 251, 245);
-  width: 100px auto;
-  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -17,7 +14,9 @@
 
 .nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
 }
 
 .box {
