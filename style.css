@@ -50,6 +50,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around; /* Use this to evenly space items */
+  align-items: center;
   height: 100%; /* Ensure there's enough height to see the spacing effect */
 }
 
