@@ -1,9 +1,3 @@
-.about {
-    box-sizing: border-box; /* This makes width and height include padding and border */
-}
-
-    
-
 .heading {
   color: rgb(0, 0, 0);
   background-color: rgb(202, 251, 245);
@@ -52,16 +46,21 @@
 
 
 .about {
-    background-color: rgb(246, 211, 246);
+    background-color: rgb(247, 249, 221);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 
+h2 {
+    text-align: center;
+}
+
+
 .discord {
-    background-color: rgb(246, 211, 246);
+    background-color: rgb(204, 250, 252);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,19 +74,4 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-    .card {
-        width: 100%; /* Full width for mobile devices */
-    }
-}
-
-
-/* Tablet */
-@media (max-width: 768px) {
-    .card {
-        width: 50%; /* Adjusts width for tablets */
-    }
 }
