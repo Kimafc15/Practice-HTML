@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -27,14 +26,12 @@
   align-items: center;
 }
 
-
 a {
   text-decoration: none;
   color: black;
   margin: 5px;
   font-size: 14px;
 }
-
 
 #home {
   background-color: rgb(246, 211, 246);
@@ -56,17 +53,13 @@ a {
   height: 100%; /* Ensure there's enough height to see the spacing effect */
 }
 
-
-
 h1 {
   font-size: 56px;
 }
 
-
 p {
   font-size: 18px;
 }
-
 
 .button {
   background-color: #51e4dd; /* Background color */
@@ -78,13 +71,13 @@ p {
   border-radius: 12px; /* Rounded corners */
   cursor: pointer; /* Change cursor to pointer on hover */
   transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
-  box-sizing: exclude; /* Ensure padding and border are not included in the total width and height */
+  width: 150px; /* Set a fixed width for the button */
+  height: 50px; /* Set a fixed height for the button */
 }
 
 .button:hover {
   background-color: #029aab; /* Darker shade on hover */
 }
-
 
 h2 {
   font-size: 24px;
