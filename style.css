@@ -51,13 +51,12 @@ a {
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 
 
 h1 {
-  font-size: 48px;
+  font-size: 56px;
 }
 
 .button {
@@ -74,6 +73,11 @@ h1 {
 
 .button:hover {
   background-color: #029aab; /* Darker shade on hover */
+}
+
+
+h2 {
+  font-size: 24px;
 }
 
 #about {
@@ -111,7 +115,7 @@ h2 {
 }
 
 .footer {
-  background-color: rgb(251, 225, 203);
+  background-color: rgb(251, 231, 203);
   text-align: center;
   position: fixed; /* Fixes the header at the bottom */
   bottom: 0; /* Aligns it to the bottom */
