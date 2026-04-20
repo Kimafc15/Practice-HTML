@@ -18,7 +18,18 @@
 .nav {
   display: flex;
   flex-direction: column;
+  padding-top: 16px;
+  align-items: center;
 }
+
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  font-size: 14px;
+}
+
 
 .box {
   background-color: rgb(246, 211, 246);
