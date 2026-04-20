@@ -36,23 +36,26 @@ a {
 }
 
 
-.box {
+#home {
   background-color: rgb(246, 211, 246);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
-  height: calc(100vh - 0px);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 700px;
 }
 
 .right {
-  background-color: none;
+  background-color: none; /* Adjust as needed */
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around; /* Use this to evenly space items */
+  height: 100%; /* Ensure there's enough height to see the spacing effect */
 }
+
 
 
 h1 {
@@ -75,6 +78,7 @@ p {
   border-radius: 12px; /* Rounded corners */
   cursor: pointer; /* Change cursor to pointer on hover */
   transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+  box-sizing: exclude; /* Ensure padding and border are not included in the total width and height */
 }
 
 .button:hover {
