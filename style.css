@@ -128,9 +128,14 @@ h2 {
   left: 0; /* Aligns it to the left */
   width: 100%; /* Full width */
   height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer-nav {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
